@@ -1,0 +1,5 @@
+App\Entity\User:
+  user{1..10}:
+    # current() is the key 1..10
+    email: user<current()>\@domain.fr 
+    password: "0000"
