@@ -16,7 +16,7 @@ class InvitationCodeTest extends KernelTestCase
     {
         return (new InvitationCode())
             ->setCode('12345')
-            ->setDescription('')
+            ->setDescription('test')
             ->setExpireAt(new \DateTime());
     }
 
